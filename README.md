@@ -5,11 +5,11 @@ Welcome to the Mobile App & Web Development course. This course is designed to t
 ---
 
 ## 📋 Course Essentials
-* **Duration:** 6 Sessions (Bi-weekly)
+* **Duration:** 12 Sessions
 * **Format:** 1.5h Practical Seminar followed by a 0.75h Lecture.
 * **Language:** English
 * **Requirement for Credit:**
-    * **Attendance:** Minimum 80% (You can miss at most 1 session).
+    * **Attendance:** Minimum 80% (You can miss at most 2 session).
     * **Final Project:** Submission of the Final Report via GitHub Pull Request.
     * **Grading:** Pass/Fail (Credit based).
 
@@ -17,14 +17,22 @@ Welcome to the Mobile App & Web Development course. This course is designed to t
 
 ## 📅 Roadmap
 
-| Week | Theme | Practical Task |
-| :--- | :--- | :--- |
-| **01** | Foundations: UX & HTML | GitHub Setup + Mobile Wireframing in Figma |
-| **02** | Frontend: CSS & Alpine.js | Responsive UI + Interactivity |
-| **03** | Engine: Astro & Infrastructure | Launching Astro + DNS/Headers Inspection |
-| **04** | Backend: Redis & Data | Live Data Persistence with Upstash |
-| **05** | DevOps: CI/CD & Testing | Netlify Auto-deploy + Debugging |
-| **06** | Growth: Analytics & SEO | SEO Audit + Final Project Submission |
+## 📅 Course Roadmap (12 Weeks)
+
+| Week | Theme | Lecture Topic (20-30m) | Practical Task (1.75h Seminar) |
+| :--- | :--- | :--- | :--- |
+| **01** | **Foundations & UX** | Project Lifecycles & "Thumb-zone" UX | GitHub Onboarding + Figma Wireframing |
+| **02** | **The Skeleton** | Semantic HTML5 & Document Structure | Translating Figma to `index.html` (Erasmus Brew) |
+| **03** | **The Skin (CSS)** | Flexbox, Grid, & Mobile-First Design | Styling the Landing Page with Responsive CSS |
+| **04** | **Interactivity** | Intro to JS & Alpine.js Logic | Adding Toggles (Mobile Menu) & Tabbed Menu |
+| **05** | **The Engine (Astro)** | Component-based Architecture & SSG | Migrating HTML/CSS to Astro Components |
+| **06** | **Infrastructure** | DNS, HTTP Headers, & Status Codes | "Inspect Element" Lab + Deploying to GH Pages |
+| **07** | **State & Logic** | Reactive Data & Local Storage | Building a "Coffee Counter" with Alpine.js |
+| **08** | **Backend (Redis)** | NoSQL & Serverless Data (Upstash) | Global "Visit Counter" using Redis & Fetch API |
+| **09** | **External APIs** | JSON, REST, & Asynchronous JS | Fetching Live Data (e.g., Weather or Coffee Quotes) |
+| **10** | **DevOps & CI/CD** | Automated Workflows & Environments | Setting up Netlify CI/CD + GitHub Actions |
+| **11** | **Growth & SEO** | SEO Audits, Meta Tags, & Lighthouse | Performance Audit + Analytics (GA4) Integration |
+| **12** | **Marketing & Launch** | Ad Theory & Portfolio Presentation | Final PR Submission & Peer Review "Showcase" |
 
 ---
 
