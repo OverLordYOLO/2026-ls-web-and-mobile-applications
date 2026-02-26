@@ -1,3 +1,5 @@
 # Lists of repositories
 
-[Bashizov Alvaris][https://github.com/Alvaris1/Web-and-Application-Alvaris]
+[Matěj Kohútek](https://github.com/OverLordYOLO/2026-ls-web-and-mobile-applications)
+
+[Alvaris Bashizov](https://github.com/Alvaris1/Web-and-Application-Alvaris)
