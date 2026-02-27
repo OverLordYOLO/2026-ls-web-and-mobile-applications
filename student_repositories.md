@@ -2,6 +2,8 @@
 
 [Matěj Kohútek](https://github.com/OverLordYOLO/2026-ls-web-and-mobile-applications)
 
+[Adil Salimzhan](https://github.com/adilsalimzhan01-rgb/webadok)
+
 [Mathieu Demierre](https://github.com/Mat1801/Info2026)
 
 [Noor Abdullah](https://github.com/noorzk1/peuniweb2026)
