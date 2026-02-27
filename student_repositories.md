@@ -2,6 +2,8 @@
 
 [Matěj Kohútek](https://github.com/OverLordYOLO/2026-ls-web-and-mobile-applications)
 
+[Anel Kadyrgali](https://github.com/anelkadyrgali60-source/anel.kk___)
+
 [Daria Kovalchuk](https://github.com/dashakovalchuk050908-maker/Daria-Kovalchuk-2026-peuni)
 
-[Serkan Sefil](https://github.com/OverLordYOLO/2026-ls-web-and-mobile-applications)
+[Serkan Sefil](https://github.com/serkansefil/2026-Study-Consultant)
