@@ -2,7 +2,7 @@
 
 [Matěj Kohútek](https://github.com/OverLordYOLO/2026-ls-web-and-mobile-applications)
 
-[Mathieu Demierre] (https://github.com/Mat1801/Info2026)
+[Mathieu Demierre](https://github.com/Mat1801/Info2026)
 
 [Noor Abdullah](https://github.com/noorzk1/peuniweb2026)
 
