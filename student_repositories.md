@@ -2,6 +2,8 @@
 
 [Matěj Kohútek](https://github.com/OverLordYOLO/2026-ls-web-and-mobile-applications)
 
+[Omelchenko Daria](https://github.com/preferdom/Web-and-mobile-application)
+
 [Mario Flores](https://github.com/mane-spec/Prueba)
 
 [Adil Salimzhan](https://github.com/adilsalimzhan01-rgb/webadok)
