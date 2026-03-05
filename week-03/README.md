@@ -1,73 +1,78 @@
 # Week 03: The Skin (Mobile-First CSS)
 
 ## 🎯 Objective
-Today, we turn your "ugly" HTML skeleton into a beautiful mobile landing page. You will learn how to use CSS to control colors, fonts, spacing, and layout, focusing on a **Mobile-First** approach.
+Today, we turn your HTML skeleton into a branded mobile landing page. You will learn how to use CSS to control colors, fonts, spacing, and layout using a **Mobile-First** approach.
 
 ---
 
-## 🛠 Task 1: Setup & Linking
-We need to create a style sheet and tell the HTML file to use it.
+## 🛠 Task 1: Setup & External Styling
+We don't write CSS inside HTML files because it gets messy. We use an **External Stylesheet**.
 
-1.  Open your GitHub Codespace.
-2.  Create a new folder called `week-03`.
-3.  Inside `week-03`, create two files:
-    - `index.html` (Copy the content from your `week-02/index.html` into this one).
-    - `style.css` (This is where our design goes).
-4.  **Link them:** Inside the `<head>` of your `index.html`, add this line:
+1.  Open your GitHub Codespace and enter your `week-03` folder.
+2.  Create a file named `styles.css`.
+3.  **Link them:** In the `<head>` of your `index.html`, add this line to connect your visuals to your skeleton :
     ```html
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
     ```
 
 ---
 
-## 🎨 Task 2: Typography & Colors
-Let's give "Erasmus Brew" a brand identity.
+## 🎨 Task 2: Brand Identity & Variables
+Using a value multiple times? Use a variable!  This makes implementing "Dark Mode" later as easy as changing one line of code.
 
-1.  **Google Fonts:** Go to [Google Fonts](https://fonts.google.com/), pick a nice font (like 'Poppins' or 'Playfair Display'), and follow the instructions to import it into your CSS.
-2.  **Define Colors:** Use CSS variables to keep your "Coffee" theme consistent.
+1.  **Set your variables** at the top of `styles.css`:
     ```css
     :root {
-      --primary-coffee: #6F4E37;
-      --light-cream: #F5F5DC;
-      --dark-text: #2C1E12;
+      --primary-color: #3b1f0a;   /* Coffee Brown */
+      --bg-color: #f5f0e8;        /* Cream Background */
     }
     ```
-3.  **Apply Basics:** Set the background color of the `body` and the default font.
+2.  **Apply Basics:** Set your `body` font and background. Use `display: flex;` and `flex-direction: column;` to ensure your page sections stack correctly.
 
 ---
 
-## 📦 Task 3: The Box Model (Spacing)
-Everything in web design is a box. We need to add "breathing room" to our coffee shop.
+## 📱 Task 3: Mobile-First Rules
+Since we are building for phones, we must follow these essential rules:
 
-1.  **Padding:** Add space *inside* your buttons and sections.
-2.  **Margin:** Add space *between* your sections (e.g., space between the Hero image and the Menu).
-3.  **Centering:** Use `margin: 0 auto;` and `max-width` to ensure your content doesn't stretch too wide on larger screens.
+* **Width is 100%:** Never give an image a fixed width (like 500px). Use `width: 100%;` so it doesn't cut off on small screens.
+* **No Horizontal Scroll:** If a user has to scroll left-to-right, the site is "broken".
+* **Thumb-Zone:** Ensure buttons/links are at least 44px tall for easy tapping.
 
+---
+
+## 📦 Task 4: The Box Model & Centering
+Everything on the web is a box! These boxes have **Content, Padding, Border, and Margin**.
+
+1.  **Centering content:** To make your app look good on larger screens, center your containers:
+    ```css
+    body > * {
+        max-width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    ```
+2.  **Add Padding:** Add spacing to your `<header>`, `<main>`, and `<footer>` so text doesn't touch the very edge of the screen.
+3.  **Debug Tip:** If you can't see your boxes, add `border: 1px solid red !important;` to all elements.
 
 
 ---
 
-## 🍱 Task 4: Layout with Flexbox
-Your "Menu" is currently a vertical list. Let's make it look more like a mobile app menu.
-
-1.  Target the `<ul>` in your Menu section.
-2.  Use `display: flex;` to align items.
-3.  Use `justify-content: space-around;` to spread them out evenly across the phone screen.
-
----
-
-## 📱 Task 5: Mobile-First Hero Image
-Make sure your coffee photo looks good on a small screen.
-
-1.  Target your `img` tag.
-2.  Set `width: 100%;` and `height: auto;`.
-3.  Add a `border-radius: 15px;` to give it a modern, "app-like" feel.
+## 🍱 Task 5: Layout & Lists
+1.  **Flexbox:** Use Flexbox to align items on the main or cross axis .
+2.  **Custom Lists:** Make your "Menu" stand out by changing the bullet point style:
+    ```css
+    ul {
+        list-style-type: "► ";
+        padding-left: 20px;
+    }
+    ```
 
 ---
 
 ## 🏁 Expected Results
-By the end of this seminar, your `week-03` folder should look like this:
+Your `week-03` folder must contain:
 ```text
 /week-03/
   ├── index.html
-  └── style.css
+  └── styles.css
+  └── coffee.jpg (or some other image)
