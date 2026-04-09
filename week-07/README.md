@@ -34,13 +34,22 @@ High-res AI images look great but can make your site too slow for mobile users.
 3.  Select **"Mobile"** and click **"Analyze page load"**.
 4.  **Screenshot:** Save a screenshot of your score gauges (Performance, Accessibility, SEO). This will be your `lighthouse-report.png`.
 
+> You would normally run Lighthouse in incognito, but because we are using Pantheon hosting, when generating the report, do not open Incognito
+
 ---
 
 ## 🖼️ Task 4: Image Optimization (WebP)
 If your Performance score was low (Red or Orange), it’s likely your images.
-1.  Install a plugin like **Smush** or **Converter for Media**.
+
+What you would do on your website (you cannot do this when using Pantheon hosting):
+1.  Install a plugin like **Ewwwww Image Optimizer**.
 2.  Convert your large JPG/PNG images into **WebP** format (a modern format that is 30% smaller but looks the same).
 3.  Re-run the Lighthouse audit. Your score should improve significantly.
+
+When using pantheon hosting do this instead:
+1. Download the images
+2. Convert them to webp format and compress them using an online service (search for it using a search engine)
+3. Upload it to your website, and delete the old large images (if this was your real website, you might want to keep the HD images on your drive)
 
 ---
 
