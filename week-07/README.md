@@ -29,7 +29,7 @@ A professional site talks back to its users instantly.
 
 ## ⚡ Task 3: The Performance Audit (Lighthouse)
 High-res AI images look great but can make your site too slow for mobile users.
-1.  Open your website in a **Chrome/Edge Incognito window**.
+1.  Open your website in a ~**Chrome/Edge Incognito window**~ (open it in normal window, not incognito - Pantheon will mess up the report in incognito).
 2.  Right-click -> **Inspect** -> **Lighthouse** tab.
 3.  Select **"Mobile"** and click **"Analyze page load"**.
 4.  **Screenshot:** Save a screenshot of your score gauges (Performance, Accessibility, SEO). This will be your `lighthouse-report.png`.
